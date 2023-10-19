@@ -49,7 +49,7 @@ class ApiData
 
         foreach ($data['data'] as $entry) {
             $nation = $entry['Nation'] ?? null;
-            $year = $entry['Year'] ?? null;
+            $year = $entry['ID Year'] ?? null;
             $population = $entry['Population'] ?? null;
 
             if ($nation !== null && $year !== null && $population !== null) {
